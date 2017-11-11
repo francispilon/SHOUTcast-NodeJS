@@ -118,6 +118,7 @@ function(dID) {
         getByGenre: Promise.nodeify(getByGenre),
         getByNowPlaying: Promise.nodeify(getByNowPlaying),
         getByAdvancedSearch: Promise.nodeify(getByAdvancedSearch),
-        getRandom: Promise.nodeify(getRandom)
+        getRandom: Promise.nodeify(getRandom),
+        parseURL: Promise.nodeify(parseURL)
     };
 };
